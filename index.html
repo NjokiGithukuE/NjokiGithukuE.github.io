@@ -4,6 +4,8 @@
         <title>Njoki Githuku</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <section class="section-1">
@@ -47,38 +49,59 @@
 
         <section class="section-2">
             <div class="main-container">
+
+                <div class="about-wrapper">
+                    <div class="about-me">
+                        <h4>More about me</h4>
+                        <p>I am currently studying web development with an aim to launch a career.</p>
+                        <p><a target="_blank" href="Njoki Githuku Resume.pdf">Download my Resume</a></p>
+                        <h4>My expertise</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+
+                    <div class="social-links">
+                        <h3>Github and LinkedIn</h3>
+                        <a href="www.linkedin.com/in/njoki-githuku-eddah" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/NjokiGithukuE" target="_blank">Github</a>
+                    </div>
+                </div>
                 About 
             </div>
         </section>
 
         <section class="section-1">
             <div class="main-container">
-                Portfolio
+                <h3 style="text-align: center">Some of my past projects</h3>
+                <div>
+                    
+                </div>
             </div>
         </section>
 
         <section class="section-2">
             <div class="main-container">
-                <p>Get in touch with me on </p>
-                <p>Phone: 0740428444</p>
-                <p>Email: njokigithuku20@gmail.com</p></div>
-                <form method="POST">
-                    <p>Or send me a message</p>
-                        <p>
-                            <label>Your name: </label>
-                            <input id="nameField" type="text" >
-                        </p>
-                        <p>
-                            <label>Message: </label>
-                            <input type="text" >
-                        </p>
-                        <p>
-                            <label>Submit</label>
-                            <input type="submit">
-                        </p>
-                    
-                </form>
 
+                <h3 style="text-align: center;">Get in touch</h3>
+
+                <form id="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" class="input-field">
+
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" class="input-field">
+
+                    <label for="email">Email</label>
+                    <input type="text" name="email" class="input-field">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" class="input-field"></textarea>
+                    
+                    <input id="submit-button" type="submit" value="Send">
+                </form>
             </div>
         </section>
     </body>
