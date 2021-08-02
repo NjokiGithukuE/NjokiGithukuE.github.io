@@ -45,7 +45,7 @@ ul{
     overflow: auto;
 }
 .main-container{
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -106,8 +106,8 @@ ul{
 }
 #profile-pic{
     display: block;
-    height: 250px;
-    width: 250px;
+    height: 430px;
+    width: 430px;
     object-fit: cover;
     border: 2px solid #f2f2f2;
     display: block;
@@ -125,7 +125,8 @@ ul{
 }
 
 #preview{
-    width: 250px;
+    width: 450px;
+    height: 450px;
     border: 1.5px solid #4771b5;
     background-color: var(--mainColor);
     padding: 15px;
