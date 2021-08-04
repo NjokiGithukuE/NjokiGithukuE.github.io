@@ -126,7 +126,7 @@ ul{
 
 #preview{
     width: 450px;
-    height: 450px;
+    height: 400px;
     border: 1.5px solid #4771b5;
     background-color: var(--mainColor);
     padding: 15px;
