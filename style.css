@@ -107,7 +107,7 @@ ul{
 #profile-pic{
     display: block;
     height: 430px;
-    width: 430px;
+    width: 80%;
     object-fit: cover;
     border: 2px solid #f2f2f2;
     display: block;
@@ -125,9 +125,9 @@ ul{
 }
 
 #preview{
-    width: 450px;
-    height: 400px;
-    border: 1.5px solid #4771b5;
+    width: 80%;
+    max-height: 100%;
+    border: 1.5px solid var(--borderColor);
     background-color: var(--mainColor);
     padding: 15px;
     position: relative;
@@ -136,7 +136,7 @@ ul{
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    border: 1.5px solid #17b2a8;
+    border: 1.5px solid var(--borderColor);
     background-color: #fff;
     position: absolute;
 }
