@@ -27,6 +27,7 @@ p, li, span, label, input, textarea{
 a{
     text-decoration: none;
     color: black;
+    
 }
 a:hover{
     text-decoration: underline;
@@ -129,32 +130,12 @@ ul{
     max-height: 100%;
     border: 1.5px solid var(--borderColor);
     background-color: var(--mainColor);
-    padding: 15px;
+    padding: 10px;
+    margin-left: 25px;
     position: relative;
-}
-.corner{
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    border: 1.5px solid var(--borderColor);
-    background-color: #fff;
-    position: absolute;
-}
-#tl-corner{
-    top: -5px;
-    left: -5px;
-}
-#tr-corner{
-    top: -5px;
-    right: -5px;
-}
-#bl-corner{
-    bottom: -5px;
-    left: -5px;
-}
-#br-corner{
-    bottom: -5px;
-    right: -5px;
+    -webkit-box-shadow: -2px 10px 6px -8px #cccccc;
+    -moz-box-shadow: -2px 10px 6px -8px #cccccc;
+    box-shadow: -2px 10px 6px -8px #cccccc;
 }
 
 .about-wrapper{
