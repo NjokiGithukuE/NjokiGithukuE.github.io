@@ -13,7 +13,8 @@ html, body{
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 20px;
 }
 h1{
     font-size: 50px;
@@ -23,6 +24,11 @@ h1, h2, h3, h4, h5, h6, strong{
 }
 p, li, span, label, input, textarea{
     color: var(--secondaryText);
+}
+.button{
+    background-color: var(--mainColor);
+    border: none;
+    font-size: 24px;
 }
 a{
     text-decoration: none;
@@ -107,8 +113,8 @@ ul{
 }
 #profile-pic{
     display: block;
-    height: 430px;
-    width: 80%;
+    height: 250px;
+    width: 60%;
     object-fit: cover;
     border: 2px solid #f2f2f2;
     display: block;
@@ -158,6 +164,7 @@ ul{
 
 .project{
     border: 1px solid var(--borderColor);
+    padding: 15px;
     -webkit-box-shadow: -3px 10px 6px -8px rgba(0,51,51,1);
     -moz-box-shadow: -3px 10px 6px -8px rgba(0,51,51,1);
     box-shadow: -3px 10px 6px -8px rgba(0,51,51,1);
@@ -184,6 +191,10 @@ ul{
 .project-description{
     color: #4b5156;
     font-size: 16px;
+}
+
+.contact{
+    align-items: cenetr;
 }
 
 #contact-form{
