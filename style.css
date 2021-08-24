@@ -94,7 +94,7 @@ ul{
 }
 
 #navigation{
-    margin: 0;
+
     padding: 10px;
 }
 
@@ -146,12 +146,14 @@ ul{
 
 .about-wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        'about-me social-links'
-    ;
+    grid-template-columns: 1fr;
+
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.skills{
+    text-align: center;
 }
 
 .portfolio-wrapper{
@@ -164,7 +166,6 @@ ul{
 
 .project{
     border: 1px solid var(--borderColor);
-    padding: 15px;
     -webkit-box-shadow: -3px 10px 6px -8px rgba(0,51,51,1);
     -moz-box-shadow: -3px 10px 6px -8px rgba(0,51,51,1);
     box-shadow: -3px 10px 6px -8px rgba(0,51,51,1);
@@ -193,8 +194,8 @@ ul{
     font-size: 16px;
 }
 
-.contact{
-    align-items: cenetr;
+.contacts{
+    text-align: center;
 }
 
 #contact-form{
@@ -254,7 +255,6 @@ ul{
         grid-template-columns: 1fr;
         grid-template-areas:
             'about-me'
-            'social-links'
         ;
     }
 
