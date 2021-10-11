@@ -182,7 +182,6 @@ ul{
 .project-preview{
     background-color: #fff;
     padding: 10px;
-
 }
 
 .project-title{
@@ -193,6 +192,16 @@ ul{
 .project-description{
     color: #4b5156;
     font-size: 16px;
+}
+
+.projects-button {
+    position: relative;
+    left: 100%;
+    border: 1px;
+    border-color: var(--mainColor);
+    font-size: 16px;
+    border-radius: 10px;
+
 }
 
 .contacts{
