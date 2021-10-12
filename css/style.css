@@ -201,7 +201,6 @@ ul{
     border-color: var(--mainColor);
     font-size: 16px;
     border-radius: 10px;
-
 }
 
 .contacts{
@@ -253,6 +252,9 @@ ul{
     }
 }
 @media screen and (max-width: 768px) {
+    .hello-wrapper{
+        font-size: medium;
+    }
     .intro-wrapper{
         grid-template-columns: 1fr;
         grid-template-areas: 
@@ -270,5 +272,9 @@ ul{
 
     .right-column{
         justify-content: center;
+    }
+    .projects-button{
+        position: relative;
+        left: 3%;
     }
 }
