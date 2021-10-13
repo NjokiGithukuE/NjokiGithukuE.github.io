@@ -159,6 +159,8 @@ ul{
 
 .portfolio-wrapper{
     display: grid;
+    /* grid: "p1" 320px "p2" 320px "p3" 320px
+        "project-button" 320px / auto; */
     grid-template-columns: repeat(auto-fit, 320px);
     gap: 20px;
     justify-content: center;
@@ -171,6 +173,10 @@ ul{
     -moz-box-shadow: -3px 10px 6px -8px rgba(0,51,51,1);
     box-shadow: -3px 10px 6px -8px rgba(0,51,51,1);
 }
+
+.p1 {grid-area: p1;}
+.p2 {grid-area: p2;}
+.p3 {grid-area: p3;}
 
 .thumbnail{
     display: block;
@@ -195,8 +201,9 @@ ul{
 }
 
 .projects-button {
-    position: relative;
-    left: 100%;
+    /* grid-area: projects-button; */
+    width: 100%;
+    justify-self: center;
     border: 1px;
     border-color: var(--mainColor);
     font-size: 16px;
@@ -246,6 +253,16 @@ ul{
     background-color: black;
     border: none;
 }
+@media screen and (max-width: 600px) {
+    .portfolio-wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            'p1'
+            'p2'
+            'p3'
+            'projects-button';
+    }
+}
 @media screen and (max-width: 1200px) {
     .main-container{
         width: 95%;
@@ -274,7 +291,8 @@ ul{
         justify-content: center;
     }
     .projects-button{
-        position: relative;
-        left: 3%;
+        width: auto;
+        padding: 5px;
+        flex-wrap: wrap;
     }
 }
