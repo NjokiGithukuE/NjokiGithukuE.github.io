@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Njoki Githuku</title>
@@ -34,8 +34,7 @@
                 </nav>
 
                 <div class="left-column">
-                    <img id="profile-pic" src="images/profile-pic.jpg"
-                        alt="Profile Picture">
+                    <img id="profile-pic" src="images/profile-pic.jpg" alt="Profile Picture">
                 </div>
                 <div class="right-column">
                     <div id="preview">
@@ -59,22 +58,22 @@
 
                     <h2>My skills</h2>
 
-                    <li>
-                        <h3><i class="fab fa-html5"></i>HTML5</h3><span class="bar"><span class="html"></span></span>
-                    </li>
-                    <li>
-                        <h3><i class="fab fa-css3-alt"></i>CSS3</h3><span class="bar"><span class="css"></span></span>
-                    </li>
-                    <li>
-                        <h3><i class="fab fa-js-square"></i>JAVASCRIPT</h3><span class="bar"><span class="javascript"></span></span>
-                    </li>
-                   
-                    <!-- <p style="font-weight: 500;"></p>
-                    <p style="font-weight: 500;"></p>
-                    <p style="font-weight: 500;"></p> -->
-                   
-                    <p><a style="font-weight: bold;" target="_blank"
-                            href="documents/Njoki Githuku Resume.pdf"
+                    <ul>
+
+                        <li>
+                            <h3><i class="fab fa-html5"></i>HTML5</h3><span class="bar"><span class="html"></span></span>
+                        </li>
+                        <li>
+                            <h3><i class="fab fa-css3-alt"></i>CSS3</h3><span class="bar"><span class="css"></span></span>
+                        </li>
+                        <li>
+                            <h3><i class="fab fa-js-square"></i>JAVASCRIPT</h3><span class="bar"><span
+                                    class="javascript"></span></span>
+                        </li>
+
+                    </ul>
+
+                    <p><a style="font-weight: bold;" target="_blank" href="documents/Njoki Githuku Resume.pdf"
                             download>Download my Resume</a></p>
                 </div>
             </div>
@@ -88,8 +87,7 @@
             <div id="portfolio-wrapper" class="portfolio-wrapper">
 
                 <div class="project p1">
-                    <img class="thumbnail" width="200px" height="200px"
-                        src="images/FAQ-accordion.jpg" alt="project-1">
+                    <img class="thumbnail" src="images/FAQ-accordion.jpg" alt="project-1">
                     <div class="project-preview">
                         <p class="project-title"><a href="https://github.com/NjokiGithukuE/FAQ-Accordion-Card"
                                 target="_blank">Frequently Asked Question(FAQ) Accordion card.</a></p>
@@ -97,8 +95,7 @@
                     </div>
                 </div>
                 <div class="project p2">
-                    <img class="thumbnail" width="200px" height="200px"
-                        src="images/sign-up-for.jpg" alt="project-1">
+                    <img class="thumbnail" src="images/sign-up-for.jpg" alt="project-1">
                     <div class="project-preview">
                         <p class="project-title"><a href="https://github.com/NjokiGithukuE/sign-up-form"
                                 target="_blank">Intro component with sign-up form</a></p>
@@ -107,8 +104,7 @@
                     </div>
                 </div>
                 <div class="project p3">
-                    <img class="thumbnail" width="200px" height="200px"
-                        src="images/3-column.jpg" alt="project-1">
+                    <img class="thumbnail" src="images/3-column.jpg" alt="project-1">
                     <div class="project-preview">
                         <p class="project-title"><a href="https://github.com/NjokiGithukuE/3-column-grid"
                                 target="_blank">3-Column preview card component</a></p>
@@ -118,22 +114,27 @@
                 </div>
 
             </div>
+        </div>
     </section>
 
     <section class="section-2">
-        <div class="main-container">            
+        <div class="main-container">
 
-            <form id="contact-form" name="contact-form" onsubmit="alert('Your message has been successfully received.');">
+            <form id="contact-form" name="contact-form"
+                onsubmit="alert('Your message has been successfully received.');">
                 <i class="fab fa-user"></i>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" class="input-field" placeholder="Enter your name here" required>
+                <input type="text" id="name" name="name" class="input-field" placeholder="Enter your name here"
+                    required>
 
                 <i class="fab fa-envelope"></i>
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" class="input-field" placeholder="Enter your email here" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                <input type="email" id="email" name="email" class="input-field" placeholder="Enter your email here"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
 
                 <label for="message">Message</label>
-                <textarea name="message" id="message" class="input-field" placeholder="Enter your message here" required></textarea>
+                <textarea name="message" id="message" class="input-field" placeholder="Enter your message here"
+                    required></textarea>
 
                 <input id="submit-button" type="submit" value="Send">
 
@@ -142,7 +143,7 @@
                     <div class="danger" id="danger">Fields cannot be empty!</div>
                 </div> -->
             </form>
-            
+
         </div>
     </section>
     <script src="js/app.js"></script>
