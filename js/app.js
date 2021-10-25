@@ -1,7 +1,25 @@
-let  submit = document.getElementById("submit-button");
+// function submitForm(e) {
+//     e.preventDefault();
+//     let emailInput = document.getElementById("email");
+//     let textInput = document.getElementById("text");
+//     let messageInput = document.getElementById("message");
 
-function messageSubmitted() {
-    alert("Your message has been successfully recorded");
-}
+//     const success = getElementById("success");
+//     const danger = getElementById("danger");
 
-submit.addEventListener("click", messageSubmitted);
+//     if(emailInput === "" || textInput === "" || messageInput === "") {
+//         danger.style.display  = 'block';
+//     } else {
+//         setTimeout(() => {
+//             textInput.value = "";
+//             emailInput.value = "";
+//             messageInput.value = "";
+//         }, 2000);
+
+//         success.style.display = "block";
+//     }
+//     setTimeout(() => {
+//         danger.style.display = "none";
+//         success.style.display = "none";
+//     }, 4000);
+// }

@@ -57,18 +57,26 @@
             <div id="about-wrapper" class="about-wrapper">
                 <div class="skills">
 
-                    <h3>My skills</h3>
+                    <h2>My skills</h2>
+
+                    <li>
+                        <h3><i class="fab fa-html5"></i>HTML5</h3><span class="bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                        <h3><i class="fab fa-css3-alt"></i>CSS3</h3><span class="bar"><span class="css"></span></span>
+                    </li>
+                    <li>
+                        <h3><i class="fab fa-js-square"></i>JAVASCRIPT</h3><span class="bar"><span class="javascript"></span></span>
+                    </li>
                    
-                    <p style="font-weight: 500;"><i class="fab fa-html5"></i> HTML</p>
-                    <p style="font-weight: 500;"><i class="fab fa-css3-alt"></i> CSS</p>
-                    <p style="font-weight: 500;"><i class="fab fa-js-square"></i> JavaScript</p>
+                    <!-- <p style="font-weight: 500;"></p>
+                    <p style="font-weight: 500;"></p>
+                    <p style="font-weight: 500;"></p> -->
                    
                     <p><a style="font-weight: bold;" target="_blank"
                             href="documents/Njoki Githuku Resume.pdf"
                             download>Download my Resume</a></p>
                 </div>
-
-
             </div>
 
         </div>
@@ -85,7 +93,7 @@
                     <div class="project-preview">
                         <p class="project-title"><a href="https://github.com/NjokiGithukuE/FAQ-Accordion-Card"
                                 target="_blank">Frequently Asked Question(FAQ) Accordion card.</a></p>
-                        <p class="project-description">A Frequently Asked Questions accordion card. In progress...</p>
+                        <p class="project-description">A Frequently Asked Questions accordion card.</p>
                     </div>
                 </div>
                 <div class="project p2">
@@ -95,7 +103,7 @@
                         <p class="project-title"><a href="https://github.com/NjokiGithukuE/sign-up-form"
                                 target="_blank">Intro component with sign-up form</a></p>
                         <p class="project-description">A sign-up form complete with client-side validation using
-                            JavaScript. In progress...</p>
+                            JavaScript.</p>
                     </div>
                 </div>
                 <div class="project p3">
@@ -104,7 +112,7 @@
                     <div class="project-preview">
                         <p class="project-title"><a href="https://github.com/NjokiGithukuE/3-column-grid"
                                 target="_blank">3-Column preview card component</a></p>
-                        <p class="project-description">An introduction to building responsive websites. In progress...
+                        <p class="project-description">An introduction to building responsive websites.
                         </p>
                     </div>
                 </div>
@@ -115,17 +123,24 @@
     <section class="section-2">
         <div class="main-container">            
 
-            <form id="contact-form">
+            <form id="contact-form" name="contact-form" onsubmit="alert('Your message has been successfully received.');">
+                <i class="fab fa-user"></i>
                 <label for="name">Name</label>
-                <input type="text" name="name" class="input-field" placeholder="Enter your name here" required>
+                <input type="text" id="name" name="name" class="input-field" placeholder="Enter your name here" required>
 
+                <i class="fab fa-envelope"></i>
                 <label for="email">Email</label>
-                <input type="email" name="email" class="input-field" placeholder="Enter your email here" required>
+                <input type="email" id="email" name="email" class="input-field" placeholder="Enter your email here" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
 
                 <label for="message">Message</label>
-                <textarea name="message" class="input-field" placeholder="Enter your message here" required></textarea>
+                <textarea name="message" id="message" class="input-field" placeholder="Enter your message here" required></textarea>
 
                 <input id="submit-button" type="submit" value="Send">
+
+                <!-- <div class="message">
+                    <div class="success" id="success">Your message was successfully sent!</div>
+                    <div class="danger" id="danger">Fields cannot be empty!</div>
+                </div> -->
             </form>
             
         </div>
