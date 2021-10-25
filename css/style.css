@@ -171,7 +171,7 @@ ul{
 .bar {
     background: #353B48;
     display: block;
-    height: 2px;
+    height: 5px;
     border: 1px solid rgba(0 0 0 0.3);
     border-radius: 3px;
     overflow: hidden;
@@ -179,7 +179,7 @@ ul{
 }
 
 .bar span {
-    height: 2px;
+    height: 4px;
     float: left;
     background: #2187E7;
 }
