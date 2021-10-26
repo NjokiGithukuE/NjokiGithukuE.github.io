@@ -163,13 +163,10 @@ ul{
     text-align: center;
 }
 
-.skills ul {
-    margin: 20px 0;
-}
-
-.skills ul li {
+.skills>span {
     list-style: none;
     margin: 20px 0;
+    padding: 10px;
 }
 
 .bar {
@@ -236,7 +233,12 @@ ul{
     gap: 20px;
     justify-content: center;
     padding-bottom: 50px;
-    }
+}
+
+.portfolio-wrapper h2 {
+    align-items: center;
+    text-align: center;
+}
 
 .project{
     border: 1px solid var(--borderColor);
