@@ -273,6 +273,21 @@ ul{
     text-align: center;
 }
 
+label {
+    display: inline-block;
+    width: 500px;
+    margin-left: 12px;
+}
+
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
 #contact-form{
     display: block;
     max-width: 600px;
